@@ -1,9 +1,8 @@
 ---
 - hosts: all
   become: yes
-  tasks:
-          name: i want to install java.JDK8 in ubuntu
-          apt:
-                  name: openjdk-8-jdk
-                  state: present
-                   
+  tasks: 
+        - name: i want to install java.jdk 8 on ubuntu
+        apt:
+                name: openjdk-8-jdk
+                state: present
