@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-        - name: i want to install java.jdk8 on ubuntu
+        - name: i want to install apache2 on ubuntu
           apt:
-                name: openjdk-8-jdk
+                name: apache2
                 state: present 
