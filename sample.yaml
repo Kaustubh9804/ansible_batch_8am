@@ -4,13 +4,13 @@
   tasks:
         - name: i want to install apache2 on ubuntu
           apt:
-                name: apache2
+                name: "{{apache2onubuntu}}"
                 state: present 
           when: ansible_os_family == "Debian"
 
         - name: i want to install apache2 on redhat
           yum:
-                name: httpd
+                name: "{{java-1.8.0-openjdka}}"
                 state: present
           when: ansible_os_family == "RedHat"
               
