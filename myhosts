@@ -13,4 +13,4 @@
 javaopenjdk8onubuntu = openjdk-8-jdk
 javaopenjdk8onredhat = java-1.8.0-openjdk
 apache2onubuntu = apache2
-apache2onredhat = httpda
+apache2onredhat = httpd
