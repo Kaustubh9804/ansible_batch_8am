@@ -1,2 +1,2 @@
 ---
-javaopenjdk11onubuntu: openjdk-11-jdke
+javaopenjdk8onubuntu: openjdk-11-jdke
