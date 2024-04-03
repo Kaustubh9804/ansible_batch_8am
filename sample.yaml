@@ -10,7 +10,7 @@
 
         - name: i want to install apache2 on redhat
           yum:
-                name: "{{java-1.8.0-openjdka}}"
+                name: "{{apache2onredhat}}"
                 state: present
           when: ansible_os_family == "RedHat"
               
