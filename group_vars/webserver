@@ -1,5 +1,5 @@
 ---
 javaopenjdk8onubuntu: openjdk-8-jdk
-javaopenjdk8onredhat: java-1.8.0-openjdk
+javaopenjdk8onredhat: java-1.8.0-openjdke
 apache2onubuntu: apache2
 apache2onredhat: httpd
