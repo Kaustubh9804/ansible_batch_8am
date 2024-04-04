@@ -13,7 +13,7 @@
      - name: i want to install tree, git and apache2
        apt:
            name:"{{item}}"
-           state: present
+    state: present
        loop:
         -"{{myvar1}}"
         -"{{myvar2}}"
