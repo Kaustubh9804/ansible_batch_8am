@@ -20,4 +20,4 @@
         apt:
            name: apache2
            state: present
-        when: my result.stderr!= ""
+        when: myresult.stderr!= ""
