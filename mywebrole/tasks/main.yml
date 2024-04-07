@@ -1,2 +1,22 @@
 ---
 # tasks file for mywebrole
+        - name: i want to install nginx on ubuntu-node1
+          apt:
+              name: {{"apache2onubuntunode1"}}
+              state: present
+          when: ansible_os_family == "Debian"
+
+
+        - name: i want to install apache2 on ubuntu-node2
+          apt:
+              name: {{"nginxonubuntunode2"}}
+              state: present
+          when: ansible_os_family == "Debian"
+
+
+        - name: i want to install apache2 on redhat-node3
+          yum:
+              name: {{"apache2onredhatnode3"}}
+              state: present
+          when: ansible_os_family == "RedHat"
+    

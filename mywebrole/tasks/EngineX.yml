@@ -1,8 +1,0 @@
----
-- hosts: Newwebserver1
-  become: yes
-  tasks:
-        - name: i want to install nginx on Ubuntu-node1
-          apt:
-              name:  nginx
-              state: present
