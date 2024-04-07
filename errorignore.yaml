@@ -7,7 +7,7 @@
                 name: trees
                 state: present
           tags: mytreetask
-          ignore_error: yes
+          ignore_errors: yes
 
 
         - name: i want to install apache2
