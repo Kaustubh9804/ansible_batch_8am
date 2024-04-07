@@ -4,7 +4,7 @@
          apt:
             name: "{{apache2onnode1}}"
             state: present
-         when: ansible_os_family == "Debian"`
+         when: ansible_os_family == "Debian"
 
        - name: i want to install nginx on ubuntu-node2
          apt:
