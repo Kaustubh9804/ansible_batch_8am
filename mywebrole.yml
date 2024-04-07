@@ -1,4 +1,5 @@
 ---
 - hosts: Newwebserver
   become: yes
-  roles: mywebrole
+  roles: 
+  - mywebrole
