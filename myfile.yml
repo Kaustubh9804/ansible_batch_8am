@@ -2,4 +2,4 @@
 - name: i wnat to create a file1
   file:
     path: /home/ubuntu/myansiblefile1
-    status: touch
+    state: touch
