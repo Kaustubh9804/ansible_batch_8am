@@ -17,6 +17,6 @@
        - name: i want to install apache2 on redhat-node3
          yum:
             name: "{{apache2onnode3}}"
-            state: present
+            state: absent
          when: ansible_os_family == "RedHat"
     
