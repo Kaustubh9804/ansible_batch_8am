@@ -4,14 +4,15 @@
          apt:
             name: "{{apache2onnode1}}"
             state: present
-         when: ansible_os_family == "Debian"
-
+         when: ansible_os_family == "Debian"`
+         ignore_errors: yes 
 
        - name: i want to install nginx on ubuntu-node2
          apt:
             name: "{{nginxonnode2}}"
             state: present
          when: ansible_os_family == "Debian"
+         ignore_errors: yes 
 
 
        - name: i want to install apache2 on redhat-node3
