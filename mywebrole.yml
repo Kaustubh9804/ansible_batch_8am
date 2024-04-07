@@ -1,8 +1,5 @@
 ---
 - hosts: Newwebserver
   become: yes
-  vars:
-    apache2onubuntunode1: apache2
-    nginxonubuntunose2: nginx
   roles:
   - mywebrole
