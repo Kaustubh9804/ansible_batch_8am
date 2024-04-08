@@ -4,18 +4,18 @@
          apt:
             name: apache2
             state: present
-         when: ansible_os_family == "Debian"
+         when: "'ubuntu' in ansible_distribution and inventory_hostname in groups['ubuntu_server']"
 
 
        - name: i want to install nginx on ubuntu-node2
          apt:
             name: nginx
             state: present
-         when: ansible_os_family == "Debian" and inventory_hostname in groups['Newwebserver']
+         when: "'ubuntu' in ansible_distribution and inventory_hostname in groups['ubuntu_server']"
 
        - name: i want to install apache2 on redhat-node3
          yum:
             name: httpd
             state: present
-         when: ansible_os_family == "RedHat"
+         when: "'redhat' in ansible_distribution"
     
