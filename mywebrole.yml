@@ -5,4 +5,5 @@
    myvar1: apache2
    myvar2: ignix
    myvar3: httpd
-  roles:  mywebrole
+  roles:  
+  - mywebrole
