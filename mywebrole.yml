@@ -2,8 +2,8 @@
 - hosts: Newwebserver
   become: yes
   vars:
-   myvar1: apache2
-   myvar2: nginx
-   myvar3: httpd
+   installapache2onnode1: apache2
+   intallnginxonnode2: nginx
+   installapache2onredhat: httpd
   roles:  
   - mywebrole
