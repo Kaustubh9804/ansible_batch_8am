@@ -1,7 +1,0 @@
----
-# tasks file for mywebrole1
-       - name: i want to install apache2 on ubuntu-node1
-         apt:
-            name: apache2
-            state: absent
-         when: ansible_os_family == "Debian"
