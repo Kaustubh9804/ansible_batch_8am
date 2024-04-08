@@ -2,4 +2,6 @@
 - hosts: Newwebserver
   become: yes
   roles:  
-  - mywebrole
+  - mywebrole1
+  - mywebrole2
+  - mywebrole3
