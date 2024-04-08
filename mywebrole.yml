@@ -2,6 +2,4 @@
 - hosts: all
   become: yes
   roles:  
-  - mywebrole1
-  - mywebrole2
-  - mywebrole3
+  - mywebrole
