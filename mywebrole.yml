@@ -2,7 +2,7 @@
 - hosts: Newwebserver
   become: yes
   vars:
-  apache2onubuntunode1: apache2
-  ignixonubuntunode2: ignix
-  apache2redhatonnode3: httpd
+   myvar1: apache2
+   myvar2: ignix
+   myvar3: httpd
   roles:  mywebrole
