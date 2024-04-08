@@ -3,7 +3,7 @@
   become: yes
   vars:
    myvar1: apache2
-   myvar2: ngnix
+   myvar2: nginx
    myvar3: httpd
   roles:  
   - mywebrole
