@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+        - name: i want to install apache2 on ubuntu-node1
+          apt:
+            name: "{{installapache2onnode1}}"
+            state: present
+          when: ansible_os_family == "Debian"
